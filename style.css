@@ -12,7 +12,7 @@ body {
 }
 
 .title-color {
-  color: #f8b661;
+  color: rgb(233, 8, 214);
 }
 
 .left-side {
@@ -22,7 +22,7 @@ body {
 }
 
 .left-side h1 {
-  border-left: 2px solid #f8b661;
+  border-left: 2px solid rgb(233, 8, 214);
   border-radius: 2px;
   padding: 2px;
 }
@@ -36,38 +36,40 @@ body {
 }
 
 .right-side img {
-  width: 80%;
+  width: 70%;
+  margin-left: 60px;
 }
 
 .anchor-button {
-  background-color: #f8b661;
-  padding: 8px;
-  border-radius: 5px;
+  margin-top: 30px;
+  display: inline-block;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 50px;
   text-decoration: none;
   font-weight: 1000;
-  color: white;
   transition: 1s;
 }
 .anchor-button:hover {
-  padding: 8px 20px;
-  background-color: black;
-  color: rgb(233, 8, 214);
+  padding: 20px 50px;
+  color: white;
 }
 
 /*Start section 2*/
 
 .section2 {
-  margin-top: 80px;
+  margin-top: 65px;
 }
 
 .section2-title-color {
-  color: orange;
+  color: rgb(233, 8, 214);
 }
 
 .section2 h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .flexible-cotainer {
@@ -78,7 +80,7 @@ body {
 
 .mission {
   width: 25%;
-  box-shadow: 10px 10px 20px rgb(179, 178, 178);
+  box-shadow: 15px 15px 20px rgb(179, 178, 178);
   padding: 10px;
   text-align: center;
   background-color: rgb(177, 245, 230);
@@ -87,7 +89,7 @@ body {
 
 .vission {
   width: 25%;
-  box-shadow: 10px 10px 20px rgb(179, 178, 178);
+  box-shadow: 15px 15px 20px rgb(179, 178, 178);
   padding: 10px;
   text-align: center;
   background-color: rgb(174, 105, 230);
@@ -96,7 +98,7 @@ body {
 
 .goals {
   width: 25%;
-  box-shadow: 10px 10px 20px rgb(179, 178, 178);
+  box-shadow: 15px 15px 20px rgb(179, 178, 178);
   padding: 10px;
   text-align: center;
   background-color: rgb(199, 216, 101);
@@ -115,7 +117,7 @@ body {
   background-image: url("images/dream-bg.png");
   background-position: 0vw;
   background-repeat: no-repeat;
-  background-size: 80px;
+  background-size: 60px;
 }
 
 .left-side2 {
@@ -124,22 +126,31 @@ body {
 
 .left-side2 img {
   width: 70%;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 .right-side2 {
   width: 50%;
 }
 
+.right-side2 p {
+  margin-right: 50px;
+  text-align: justify;
+}
+
 /*Start section 4*/
 
 .section4 {
   display: flex;
-  margin: 10px 80px;
+  margin: 10px 60px;
 }
 
 .left-side3 {
   width: 50%;
+}
+
+.left-side3 p {
+  text-align: justify;
 }
 
 .right-side3 {
@@ -149,10 +160,9 @@ body {
 .right-side3 img {
   width: 90%;
   margin-left: 60px;
-  background-image: url("images/shape-1.png");
-  background-position: right bottom;
-  background-repeat: no-repeat;
 }
+
+/* Start section 5*/
 
 /*Footer start*/
 
@@ -161,5 +171,11 @@ footer {
   text-align: center;
   color: white;
   font-weight: bold;
-  padding: 30px;
+  padding: 2px;
+  font-family: Loto;
+  font-size: 12px;
+}
+
+footer div {
+  margin-bottom: 25px;
 }
